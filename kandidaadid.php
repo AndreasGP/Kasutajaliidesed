@@ -3,8 +3,17 @@
 </head>
 <body>
     <?php include 'navbar_sisselogimata.php' ?>
-    <div class="container">   
-    <h2>Kandidaadid</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <h2>Kandidaadid</h2>
+            </div>
+            <div class="col-xs-6">
+                <br>
+                <button class="btn btn-lg btn-default  pull-right"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</button>
+            </div>
+        </div>
+    
     
     
     <div class="row">
@@ -140,6 +149,7 @@
           </tbody>
         </table>
     </div>
+        
   
     </div>
   </div>
