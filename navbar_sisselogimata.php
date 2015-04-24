@@ -8,7 +8,7 @@
                 <li><a href="/e-valimised/abi.php">Abi</a></li>
                 <li><a href="/e-valimised/kandidaadid.php">Kandidaadid</a></li>
                 <li><a href="/e-valimised/haaletamine.php">Hääletamine</a></li>
-                <li><a href="/e-valimised/sisene.php">Sisene ID-kaardiga</a></li>
+                <li><a href="/e-valimised/sisene.php"><b>Sisene ID-kaardiga</b></a></li>
             </ul>
             <br>
             <ul class="nav navbar-nav pull-right">

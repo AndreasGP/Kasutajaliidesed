@@ -6,6 +6,7 @@
             <h4><a href="/e-valimised/abi.php">Abi</a></h4>
             <h4><a href="/e-valimised/kandidaadid.php">Kandidaadid</a></h4>
             <h4><a href="/e-valimised/haaletamine.php">Hääletamine</a></h4>
+            <h4><a href="/e-valimised/sisene.php">Sisene</a></h4>
         </div>
         <div class="col-md-offset-3 col-md-5">
             <br>

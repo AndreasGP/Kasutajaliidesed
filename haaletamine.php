@@ -5,8 +5,9 @@
     <?php include 'navbar_sisselogimata.php' ?>
     <div class="container">   
         <ol class="breadcrumb">
-        <li><a href="index.php">Valimised</a></li>
         <li class="active">Hääletamine</li>
+        <li>Kandidaadi valimine</li>
+        <li class="active">Hääle kinnitamine</li>
         </ol>
     <h2>Teie valimispiirkonnaks on <span>Tartu linn</span>.</h2>
     
@@ -31,7 +32,7 @@
           <tbody>
               <tr>
               <td>69</td>
-              <td>Rögabert Hüdse</td>
+              <td>Rögabert Björn</td>
               <td>Reformierakond</td>
  
           </tr>
@@ -91,8 +92,9 @@
     </div>
   
     </div>
-     <div class="col-md-offset-1 col-md-4">
-          <h1>Teie valik on:</h1>
+     <div class="col-md-6">
+     <div class="col-md-11">
+          <h3>Teie valik on:</h3>
           <div class="jumbotron">
           <h3>Number 404</h3>
           <h1>Karl Puusaar</h1>
@@ -101,6 +103,7 @@
           
          <button class="btn btn-lg btn-success pull-right">Kinnitan hääle</button>
            </div>
+     </div>
      </div>
   </div>
         
