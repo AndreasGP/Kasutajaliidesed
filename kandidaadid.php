@@ -5,12 +5,51 @@
     <?php include 'navbar_sisselogimata.php' ?>
     <div class="container">
         <div class="row">
-            <div class="col-xs-6">
+            <div class="col-sm-8">
                 <h2>Kandidaadid</h2>
             </div>
-            <div class="col-xs-6">
-                <br>
-                <button class="btn btn-lg btn-default  pull-right"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</button>
+            <div class="col-sm-4">
+                <div class="container">
+                    
+                    <div class="col-xs-1">
+                    <p>Nimi:</p>
+                    <p>Piirkond:</p>
+                    <p>Erakond:</p>
+                </div>
+                <div class="col-xs-2">
+                    <input type="text" class="form-control">
+                    <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Piirkond
+            <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tartu linn</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Harju- ja Raplamaa</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pärnumaa</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lääne-Virumaa</a></li>
+            </ul>
+            </div>
+                
+                <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" >
+            Erakond
+            <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Keskerakond</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Reformierakond</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eestimaa Rohelised</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Üksikkandidaat</a></li>
+            </ul>
+            </div>
+                </div>
+                </div>
+             
+                
+            
+                
+                <button class="btn btn-lg btn-default"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</button>
             </div>
         </div>
 
@@ -81,70 +120,70 @@
                                 <td>69</td>
                                 <td>Rögabert Hüdse</td>
                                 <td>Reformierakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>111</td>
                                 <td>Edgar Savisaar</td>
                                 <td>Keskerakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>135</td>
                                 <td>Andrus Soopalu</td>
                                 <td>Rahva Ühtsuse Erakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>141</td>
                                 <td>Riho Rausma</td>
                                 <td>Eesti Konservatiivne Rahvaerakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>262</td>
                                 <td>Kristen Michal</td>
                                 <td>Reformierakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>404</td>
                                 <td>Karl Puusaar</td>
                                 <td>Üksikkandidaat</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
                             <tr>
                                 <td>422</td>
                                 <td>Juhan Parts</td>
                                 <td>Isamaa ja Res Publica Liit</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr> 
                             <tr>
                                 <td>491</td>
                                 <td>Maire Aunaste</td>
                                 <td>Isamaa ja Res Publica Liit</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr> 
 
                             <tr>
                                 <td>536</td>
                                 <td>Agu Kivimägi</td>
                                 <td>Eestimaa Rohelised</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
 
                             <tr>
                                 <td>579</td>
                                 <td>Ants Miller</td>
                                 <td>Eesti Vabaerakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
 
                             <tr>
                                 <td>878</td>
                                 <td>Hannes Hanso</td>
                                 <td>Sotsiaaldemokraatlik Erakond</td>
-                                <td><button type="button" class="btn btn-default">Vaata lähemalt</button></td>
+                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
                             </tr>
 
                         </tbody>
