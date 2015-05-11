@@ -2,65 +2,23 @@
 <title>Kandidaadid</title>
 </head>
 <body>
-    <?php include 'navbar_sisselogimata.php' ?>
+    <?php include 'admin_navbar.php' ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <h2>Kandidaadid</h2>
             </div>
             <div class="col-sm-4">
-                <div class="container">
-                    
-                    <div class="col-xs-1">
-                    <p>Nimi:</p>
-                    <p>Piirkond:</p>
-                    <p>Erakond:</p>
-                </div>
-                <div class="col-xs-3">
-                    <input type="text" class="form-control">
-                    <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-            Piirkond
-            <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tartu linn</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Harju- ja Raplamaa</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pärnumaa</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lääne-Virumaa</a></li>
-            </ul>
-            </div>
-                
-                <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" >
-            Erakond
-            <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Keskerakond</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Reformierakond</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eestimaa Rohelised</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Üksikkandidaat</a></li>
-            </ul>
-            </div>
-                </div>
-                </div>
-             
-                
-            
-                
-                <button class="btn btn-lg btn-default"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</button>
+                <a class="btn btn-lg btn-success pull-right" href="/e-valimised/admin_kandidaadi_sisestamine.php">Lisa kandidaat</a>
             </div>
         </div>
-
-
 
         <div class="row">
             <div class="col-md-3">
                 <h3>&nbsp;&nbsp;Piirkond</h3>
             </div>
             <div class="col-md-9">
-                <h3>Kandidaadid piirkonnas Tallinn - Kesklinn, Lasnamäe ja Pirita on</h3>
+                <h3>Piirkond: Tallinn - Kesklinn, Lasnamäe ja Pirita</h3>
             </div>
         </div>
         <div class="row">
@@ -111,7 +69,8 @@
                                 <th class="col-md-1"><span class="glyphicon glyphicon-chevron-down"></span> Number</th>
                                 <th class="col-md-2">Nimi</th>
                                 <th class="col-md-2">Erakond</th>
-                                <th class="col-md-1">Kandidaadi detailid</th>
+                                <th class="col-md-2">Viimati muudetud</th>
+                                <th class="col-md-2">Toimingud</th>
                             </tr>
                         </thead>
 
@@ -120,70 +79,147 @@
                                 <td>69</td>
                                 <td>Rögabert Hüdse</td>
                                 <td>Reformierakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>111</td>
                                 <td>Edgar Savisaar</td>
                                 <td>Keskerakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>135</td>
                                 <td>Andrus Soopalu</td>
                                 <td>Rahva Ühtsuse Erakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>141</td>
                                 <td>Riho Rausma</td>
                                 <td>Eesti Konservatiivne Rahvaerakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>262</td>
                                 <td>Kristen Michal</td>
                                 <td>Reformierakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>404</td>
                                 <td>Karl Puusaar</td>
                                 <td>Üksikkandidaat</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>422</td>
                                 <td>Juhan Parts</td>
                                 <td>Isamaa ja Res Publica Liit</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr> 
                             <tr>
                                 <td>491</td>
                                 <td>Maire Aunaste</td>
                                 <td>Isamaa ja Res Publica Liit</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr> 
 
                             <tr>
                                 <td>536</td>
                                 <td>Agu Kivimägi</td>
                                 <td>Eestimaa Rohelised</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
 
                             <tr>
                                 <td>579</td>
                                 <td>Ants Miller</td>
                                 <td>Eesti Vabaerakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                                <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
 
                             <tr>
                                 <td>878</td>
                                 <td>Hannes Hanso</td>
                                 <td>Sotsiaaldemokraatlik Erakond</td>
-                                <td><a href="kandidaadi_detailid.php" class="btn btn-default">Vaata lähemalt</a></td>
+                                <td>11.05.2015 12:00</td>
+                               <td>
+                                    <div class="row">
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
+
+                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                    </div>
+                                </td>
                             </tr>
 
                         </tbody>
@@ -196,4 +232,3 @@
 
     </div>
 </body>
-<?php include 'footer.php' ?>

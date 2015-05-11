@@ -14,6 +14,12 @@
     margin-bottom: -30px;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .footer a {
     color: #FFFFFF !important;
 }
