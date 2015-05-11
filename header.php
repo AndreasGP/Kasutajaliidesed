@@ -6,3 +6,5 @@
         <link rel="stylesheet" href="/e-valimised/css/styles.css" />
         <script type="text/javascript" src="/e-valimised/js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="/e-valimised/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/e-valimised/js/jquery.countdown.min.js"></script>
+        

@@ -1,3 +1,4 @@
+<div style="clear: both"></div>
 <footer class="footer">
     <nav class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
@@ -6,7 +7,7 @@
             <h4><a href="/e-valimised/abi.php">Abi</a></h4>
             <h4><a href="/e-valimised/kandidaadid.php">Kandidaadid</a></h4>
             <h4><a href="/e-valimised/haaletamine.php">Hääletamine</a></h4>
-            <h4><a href="/e-valimised/sisene.php">Sisene</a></h4>
+            <h4><a href="/e-valimised/sisene.php"><b>Sisene ID-kaardiga</b></a></h4>
         </div>
         <div class="col-md-offset-3 col-md-5">
             <br>
@@ -16,6 +17,5 @@
             <h4>Madruse tee 3.14, Tartu, 50712</h4>
         </div>
     </div>
-    </nav>
-    
+    </nav> 
 </footer>
