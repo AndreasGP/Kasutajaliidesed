@@ -1,15 +1,15 @@
 <?php include 'header.php' ?>
-<title>Kandidaadi sisestamine</title>
+<title>Kandidaadi muutmine</title>
 </head>
 <body>
     <?php include 'admin_navbar.php' ?>
     <div class="container">
-        <h2>Kandidaadi sisestamine</h2>
+        <h2>Kandidaadi muutmine</h2>
         <br>
 
         <div class="col-sm-3 col-sm-offset-1">
             <label class="control-label col-sm-3" for="pic">Eelvaade:</label>   
-            <img src="http://greentreesarborcareinc.com/wp-content/uploads/2014/01/image-placeholder.jpg" class="img-responsive" alt="Kek" width="200" height="200"/>
+            <img src="http://s3.amazonaws.com/auteurs_production/images/cast_member/26725/original.jpg?1338050148" class="img-responsive" alt="Kek" width="200" height="200"/>
             <br>
             <div class=""form-group">
                  <label class="control-label col-sm-3" for="pic">Pilt:</label>
@@ -25,45 +25,35 @@
                         <div class="form-group">
                             <label class="control-label col-sm-3">Eesnimi:</label>
                             <div class="col-sm-7">
-                                <input class="form-control" type="text" id="firstname" name="firstname" ng-model="user.firstname" placeholder="<?php echo $firstname ?>" required/>
+                                <input class="form-control" type="text" value="Karl" id="firstname" name="firstname" ng-model="user.firstname" placeholder="<?php echo $firstname ?>" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label col-sm-3">Perekonnanimi:</label>
                             <div class="col-sm-7">
-                                <input class="form-control" type="text" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
+                                <input class="form-control" type="text" value="Puusaar" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label col-sm-3" for="pwd">Erakond:</label>
                             <div class="col-sm-7">
-                                <select class="form-control" id="party" ng-model="user.party" required>
-                                    <option value="" style="display:none;"></option>
-                                    <?php foreach ($parties as $row): ?>
-                                        <option><?php echo $row->getName(); ?></option>
-                                    <?php endforeach; ?>
-                                </select>
+                                <input class="form-control" type="text" value="Keskerakond" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label col-sm-3" for="area">Piirkond:</label>
                             <div class="col-sm-7">
-                                <input class="form-control" id="area" type="text" name="area" ng-model="user.area"  required/>
+                                <input class="form-control" type="text" value="Tartu linn" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="control-label col-sm-3" for="education">Haridus:</label>
                             <div class="col-sm-7">
-                                <select class="form-control" id="education" ng-model="user.education" name="education" required>
-                                    <option value="" style="display:none;"></option>
-                                    <?php foreach ($educations as $row): ?>
-                                        <option><?php echo $row->getName(); ?></option>
-                                    <?php endforeach; ?>
-                                </select>
+                                <input class="form-control" type="text" value="Puudulik" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
                             </div>                     
                         </div>
 
@@ -82,18 +72,18 @@
                                 </select> 
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label class="control-label col-sm-3" for="job">Töökoht:</label>
                             <div class="col-sm-7">
-                                <input class="form-control" type="text" placeholder="Töökoht" name="job" ng-model="user.job" required>
+                                <input class="form-control" type="text" value="Põlva Ülimkool" name="lastname" ng-model="user.lastname" placeholder="<?php echo $lastname ?>" required/>
                             </div>
                         </div>
                         <br>
                         <br>
-                        
+
                         <div class="form-group">
-                            <label class="control-label col-sm-3" for="job">Lisamise selgitus:</label>
+                            <label class="control-label col-sm-3" for="job">Muudatuse selgitus:</label>
                             <div class="col-sm-7">
                                 <input class="form-control" type="text" placeholder="Selgitus" name="job" ng-model="user.job" required>
                             </div>
@@ -103,7 +93,7 @@
                             <div class="col-sm-7 col-sm-offset-3">
                                 <div class="pull-right">
                                     <a class="btn btn-danger" type="submit" href="/e-valimised/admin_kandidaadid.php">Tagasi</a>
-                                    <a class="btn btn-success" type="submit" href="/e-valimised/admin_kandidaadid.php">Lisa kandidaat</a>
+                                    <a class="btn btn-warning" type="submit" href="/e-valimised/admin_kandidaadid.php">Salvesta muudatused</a>
                                 </div>
                             </div>
                         </div>
