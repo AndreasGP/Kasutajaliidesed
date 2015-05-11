@@ -12,7 +12,6 @@
                 <a class="btn btn-lg btn-success pull-right" href="/e-valimised/admin_kandidaadi_sisestamine.php">Lisa kandidaat</a>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-3">
                 <h3>&nbsp;&nbsp;Piirkond</h3>
@@ -57,7 +56,6 @@
                 </div>
             </div>
 
-
             <!--Table -->
             <div class="col-md-9">
 
@@ -84,7 +82,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -97,7 +95,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -110,7 +108,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -123,7 +121,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -136,7 +134,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -149,7 +147,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -162,7 +160,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr> 
@@ -175,7 +173,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr> 
@@ -189,7 +187,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -203,7 +201,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
@@ -217,7 +215,7 @@
                                     <div class="row">
                                         <a href="admin_kandidaadi_muutmine.php" class="btn btn-warning col-xs-5">Muuda</a>
 
-                                        <a href="admin_kandidaadi_muutmine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
+                                        <a href="admin_kandidaadi_kustutamine.php" class="btn btn-danger col-xs-5 col-xs-offset-1">Kustuta</a>
                                     </div>
                                 </td>
                             </tr>
