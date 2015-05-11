@@ -1,6 +1,6 @@
-<div style="clear: both"></div>
-<footer class="footer">
-    <nav class="navbar navbar-default navbar-fixed-bottom">
+
+<div class="footer">
+    <nav class="navbar navbar-default">
     <div class="container">
         <div class="col-md-4">
             <h3>Eesti Vabariigi Elektroonilised Valimised 2015</h3>
@@ -18,4 +18,4 @@
         </div>
     </div>
     </nav> 
-</footer>
+</div>

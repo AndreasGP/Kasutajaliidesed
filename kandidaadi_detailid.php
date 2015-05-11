@@ -2,6 +2,7 @@
 <title>E-Hääletamine</title>
 </head>
 <body>
+    <div class="wrap">
     <?php include 'navbar_sisselogimata.php' ?>
     <div class="container">
     <div class="col-sm-3">
@@ -41,5 +42,7 @@
         </table>
     </div>
 </div>
+        <?php include 'footer.php' ?>
+    </div>
 </body>
-<?php include 'footer.php' ?>
+
