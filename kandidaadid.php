@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<script type="text/javascript" src="/e-valimised/js/script.js"></script>
 <title>Kandidaadid</title>
 </head>
 <body>
@@ -9,47 +10,45 @@
                 <h2>Kandidaadid</h2>
             </div>
             <div class="col-sm-4">
-                <div class="container">
-                    
+                <div id="parameetrid" class="container" style="display:none">
+
                     <div class="col-xs-1">
-                    <p>Nimi:</p>
-                    <p>Piirkond:</p>
-                    <p>Erakond:</p>
+                        <p>Nimi:</p>
+                        <p>Piirkond:</p>
+                        <p>Erakond:</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form-control">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                Piirkond
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tartu linn</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Harju- ja Raplamaa</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pärnumaa</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lääne-Virumaa</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" >
+                                Erakond
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Keskerakond</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Reformierakond</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eestimaa Rohelised</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Üksikkandidaat</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-3">
-                    <input type="text" class="form-control">
-                    <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-            Piirkond
-            <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Tartu linn</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Harju- ja Raplamaa</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pärnumaa</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lääne-Virumaa</a></li>
-            </ul>
-            </div>
-                
-                <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" style="width:100%;text-align:left" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true" >
-            Erakond
-            <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Keskerakond</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Reformierakond</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Eestimaa Rohelised</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Üksikkandidaat</a></li>
-            </ul>
-            </div>
-                </div>
-                </div>
-             
-                
-            
-                
-                <button class="btn btn-lg btn-default"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</button>
+
+                <br>
+                <div id="otsingunupp" class="otsingunupp btn btn-lg btn-default pull-right"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</div>
             </div>
         </div>
 
