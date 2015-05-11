@@ -48,7 +48,7 @@
                 </div>
 
                 <br>
-                <div id="otsingunupp" class="otsingunupp btn btn-lg btn-primary pull-right"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</div>
+                <div id="otsingunupp" class="otsingunupp btn btn-lg btn-default pull-right"><span class="glyphicon glyphicon-search"></span> Otsi kandidaati</div>
             </div>
         </div>
 
