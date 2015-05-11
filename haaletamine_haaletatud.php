@@ -6,7 +6,9 @@
     <?php include 'navbar_sisselogitud.php' ?>
         <div class="content">
     <div class="container">   
-
+        
+    <div class="alert alert-warning" role="alert">Te olete juba hääletanud kuupäeval 11.05.2015 kell 18:04. Kui te hääletate uuesti, teie eelmine hääl tühistatakse.</div>
+        
     <h2>Teie valimispiirkonnaks on <span>Tartu linn</span>.</h2>
     
     
@@ -96,24 +98,29 @@
           </tbody>
         </table>
     </div>
-  
+
     </div>
-     <div class="col-md-6">
-     <div class="col-md-11">
-          <h3>Teie valik on:</h3>
-          <div class="jumbotron">
-          <h3>Number 404</h3>
-          <h1>Karl Puusaar</h1>
-          <h3>Üksikkandidaat</h3>
-          <br>
-          
-         <a class="btn btn-lg btn-success pull-right" href="/e-valimised/haale_kinnitus.php">Kinnitan hääle</a>
-           </div>
-     </div>
-     </div>
-  </div>
-        
+    <div class="col-md-6">
+        <div class="col-md-11">
+            <h3>Teie valik on:</h3>
+            <div class="jumbotron">
+                <h3>Number 404</h3>
+                <h1>Karl Puusaar</h1>
+                <h3>Üksikkandidaat</h3>
+                <br>
+
+                <a class="btn btn-lg btn-success pull-right" href="/e-valimised/haale_kinnitus.php">Kinnitan hääle</a>
+            </div>
         </div>
-</div>
+        <div class="clearfix"></div>
+        <div class="col-md-11"> 
+    <h4>Vajutage siia, kui soovite tühistada oma viimase antud hääle ilma uut kandidaati valimata:</h4>
+    <a type="button" class="btn btn-lg btn-danger pull-right" href="/e-valimised/haaletamine.php">Tühistan eelmise hääle</a>  
+    </div>
+    </div>
+    </div>
+    <br>
+    </div>
+        </div>
         <?php include 'footer.php' ?>
-        </div>
+    </div>
