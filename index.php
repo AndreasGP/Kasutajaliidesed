@@ -2,7 +2,9 @@
 <title>E-valimised 2015</title>
 </head>
 <body>
+    <div class="wrap">
     <?php include 'navbar_sisselogimata.php' ?>
+        <div class="content">
     <div class="container">   
         <div class="jumbotron" style="text-align:center"><h2>Tere tulemast 2015. a Eesti Vabariigi Riigikogu elektrooniliste valimiste portaali!</h2>
             <h3>Elektroonilise hääletamise lõpuni on jäänud</h3>
@@ -14,5 +16,7 @@
                 Hääletamiseks logige ID-kaardiga portaali sisse <a href=""e-valimised/sisenemine.php">siit</a>.</h3>
         </div>
     </div>
+            </div>
+        <?php include 'footer.php' ?>
+        </div>
 </body>
-<?php include 'footer.php' ?>
