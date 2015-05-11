@@ -4,6 +4,7 @@
 <body>
     <div class="wrap">
     <?php include 'navbar_sisselogimata.php' ?>
+      <div class="content">  
     <div class="container">
     <div class="col-sm-3">
         <br>
@@ -42,6 +43,7 @@
         </table>
     </div>
 </div>
+          </div>
         <?php include 'footer.php' ?>
     </div>
 </body>

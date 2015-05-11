@@ -3,7 +3,9 @@
 <title>Kandidaadid</title>
 </head>
 <body>
+    <div class="wrap">
     <?php include 'navbar_sisselogimata.php' ?>
+        <div class="content">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -194,5 +196,8 @@
         </div>
 
     </div>
+             </div>
+        <?php include 'footer.php' ?>
+        </div>
 </body>
-<?php include 'footer.php' ?>
+

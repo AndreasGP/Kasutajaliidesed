@@ -1,6 +1,6 @@
 
 <div class="footer">
-    <nav class="navbar navbar-default">
+    
     <div class="container">
         <div class="col-md-4">
             <h3>Eesti Vabariigi Elektroonilised Valimised 2015</h3>
@@ -17,5 +17,5 @@
             <h4>Madruse tee 3.14, Tartu, 50712</h4>
         </div>
     </div>
-    </nav> 
+    
 </div>
