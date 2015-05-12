@@ -1,5 +1,6 @@
 <?php include 'header.php' ?>
 <script type="text/javascript" src="/e-valimised/js/script.js"></script>
+<script type="text/javascript" src="/e-valimised/js/abi_kandidaadid.js"></script>
 <title>Kandidaadid</title>
 </head>
 <body>

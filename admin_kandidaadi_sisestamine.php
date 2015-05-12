@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<script type="text/javascript" src="/e-valimised/js/abi_kandidaadid_lisamine.js"></script>
 <title>Kandidaadi sisestamine</title>
 </head>
 <body>

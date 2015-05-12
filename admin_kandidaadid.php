@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<script type="text/javascript" src="/e-valimised/js/abi_admin.js"></script>
 <title>Kandidaadid</title>
 </head>
 <body>
@@ -12,6 +13,8 @@
                 <a class="btn btn-lg btn-success pull-right" href="/e-valimised/admin_kandidaadi_sisestamine.php">Lisa kandidaat</a>
             </div>
         </div>
+        //Nähtav vaid vastavas olukorras(kui muuta ei saa, on nuppudel hall varjund, et näidata, et neid kasutada ei saa)
+        <div class="alert alert-warning" style="text-align:center" role="alert">Valimised on juba alanud ning kandidaate enam muuta ei saa.</div>
         <div class="row">
             <div class="col-md-3">
                 <h3>&nbsp;&nbsp;Piirkond</h3>

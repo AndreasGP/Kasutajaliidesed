@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<script type="text/javascript" src="/e-valimised/js/abi_haaletamine.js"></script>
 <title>E-Hääletamine</title>
 </head>
 <body>
